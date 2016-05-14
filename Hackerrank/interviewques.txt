@@ -1,0 +1,39 @@
+media player:
+a dictionary <song id,pointer to file> + a array of size max(song_id) 
+song id is global which gets incremetned on each insert
+song is played mark 1 i array
+
+
+LCA???
+
+
+
+excel column naming : base 26 numbers
+
+100 coin puzzle:
+https://www.quora.com/You-have-a-100-coins-laying-flat-on-a-table-each-with-a-head-side-and-a-tail-side-10-of-them-are-heads-up-90-are-tails-up-How-would-you-split-the-coins-into-two-piles-such-that-there-are-the-same-number-of-heads-in-each-pile
+
+
+ find minimum number of characters needed to be added to the end of a string to make it palindrome.
+
+
+Simple Matrix multiplication problem ,with only 2 double pointer are given , we need to check sizes of both matrix , multiplication feasibility and then do multiplication .
+
+
+Multiplication of two numbers without using multiplication operator
+
+
+How we can implement a queue with one pointer
+
+http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
+
+
+http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/
+
+
+http://www.geeksforgeeks.org/reverse-a-stack-using-recursion/
+
+
+http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
+
+
