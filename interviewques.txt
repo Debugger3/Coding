@@ -8,7 +8,6 @@ LCA???
 
 
 
-excel column naming : base 26 numbers
 
 100 coin puzzle:
 https://www.quora.com/You-have-a-100-coins-laying-flat-on-a-table-each-with-a-head-side-and-a-tail-side-10-of-them-are-heads-up-90-are-tails-up-How-would-you-split-the-coins-into-two-piles-such-that-there-are-the-same-number-of-heads-in-each-pile
@@ -18,6 +17,7 @@ https://www.quora.com/You-have-a-100-coins-laying-flat-on-a-table-each-with-a-he
 
 
 Simple Matrix multiplication problem ,with only 2 double pointer are given , we need to check sizes of both matrix , multiplication feasibility and then do multiplication .
+
 
 
 Multiplication of two numbers without using multiplication operator
@@ -35,5 +35,6 @@ http://www.geeksforgeeks.org/reverse-a-stack-using-recursion/
 
 
 http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
+
 
 
