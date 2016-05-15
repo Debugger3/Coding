@@ -31,10 +31,23 @@ http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space
 http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/
 
 
+http://www.ideserve.co.in/learn/diagonal-sum-of-a-binary-tree
+
+
 http://www.geeksforgeeks.org/reverse-a-stack-using-recursion/
 
 
 http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
+
+
+http://www.geeksforgeeks.org/dynamic-programming-set-14-variations-of-lis/
+
+
+
+Implement a data structure with push() , pop() , find minimum element in O(1).
+
+
+http://www.algebra.com/algebra/homework/Permutations/Permutations.faq.question.389512.html
 
 
 
