@@ -5,8 +5,14 @@ song is played mark 1 i array
 
 
 LCA???
+with recursion
+without recursion(parent+height)
 
 
+There are two very large numbers, cant fit in any data type provided, so they are given in a linked list (one digit per node). Sum the two numbers.
+
+
+ Given an array that contains only 1, 2 and 3. Sort the array. He asked me to write code for two methods – counting method and Dutch National Flag algorithm.
 
 
 100 coin puzzle:
