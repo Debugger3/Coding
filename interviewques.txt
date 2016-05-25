@@ -55,5 +55,11 @@ Implement a data structure with push() , pop() , find minimum element in O(1).
 
 http://www.algebra.com/algebra/homework/Permutations/Permutations.faq.question.389512.html
 
+An binary tree is given. He asked me to serialize and deserialize the given binary tree. I gave him the approach using pre order traversal and store the elements in array and using another array which will store whether a node element is leaf node or internal node.
 
+
+Given a 2-D plane and number of points are given on that 2-D plane which are represented by its (x,y) co-ordinates. So i need to find the maximum number of points which can be lie on a single line.
+
+
+LRU cache implementation
 

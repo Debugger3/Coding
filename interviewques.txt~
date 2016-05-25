@@ -5,10 +5,15 @@ song is played mark 1 i array
 
 
 LCA???
+with recursion
+without recursion(parent+height)
 
 
+There are two very large numbers, cant fit in any data type provided, so they are given in a linked list (one digit per node). Sum the two numbers.
 
-excel column naming : base 26 numbers
+
+ Given an array that contains only 1, 2 and 3. Sort the array. He asked me to write code for two methods – counting method and Dutch National Flag algorithm.
+
 
 100 coin puzzle:
 https://www.quora.com/You-have-a-100-coins-laying-flat-on-a-table-each-with-a-head-side-and-a-tail-side-10-of-them-are-heads-up-90-are-tails-up-How-would-you-split-the-coins-into-two-piles-such-that-there-are-the-same-number-of-heads-in-each-pile
@@ -18,6 +23,7 @@ https://www.quora.com/You-have-a-100-coins-laying-flat-on-a-table-each-with-a-he
 
 
 Simple Matrix multiplication problem ,with only 2 double pointer are given , we need to check sizes of both matrix , multiplication feasibility and then do multiplication .
+
 
 
 Multiplication of two numbers without using multiplication operator
@@ -31,6 +37,29 @@ http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space
 http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/
 
 
+http://www.ideserve.co.in/learn/diagonal-sum-of-a-binary-tree
+
+
 http://www.geeksforgeeks.org/reverse-a-stack-using-recursion/
 
+
+http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
+
+
+http://www.geeksforgeeks.org/dynamic-programming-set-14-variations-of-lis/
+
+
+
+Implement a data structure with push() , pop() , find minimum element in O(1).
+
+
+http://www.algebra.com/algebra/homework/Permutations/Permutations.faq.question.389512.html
+
+An binary tree is given. He asked me to serialize and deserialize the given binary tree. I gave him the approach using pre order traversal and store the elements in array and using another array which will store whether a node element is leaf node or internal node.
+
+
+Given a 2-D plane and number of points are given on that 2-D plane which are represented by its (x,y) co-ordinates. So i need to find the maximum number of points which can be lie on a single line.
+
+
+LRU cache implementation
 
