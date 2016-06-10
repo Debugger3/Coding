@@ -29,6 +29,11 @@ Simple Matrix multiplication problem ,with only 2 double pointer are given , we 
 Multiplication of two numbers without using multiplication operator
 
 
+
+http://www.geeksforgeeks.org/a-boolean-matrix-question/
+
+Given a no, find next no greater than n and having same digits
+
 How we can implement a queue with one pointer
 
 http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
@@ -124,4 +129,33 @@ Given an array, you can only ROTATE the array as many times you want. Return the
 http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
 
 http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+
+http://www.geeksforgeeks.org/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/
+
+
+Find the sum of all bits from numbers 1 to n.
+
+http://www.geeksforgeeks.org/majority-element/ ///morres voting algo
+
+http://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/ Using BFS and DFS... DFS using last node in depth.
+
+
+
+http://www.geeksforgeeks.org/the-celebrity-problem/
+
+
+Given a matrix calculate minimum cost path to reach from top-left to bottom-right. Suggested him the dp approach then he asked me if this will work with negative edges or not. I said yes it would work.
+He then twisted the question a bit…now one can move in either of the four direction left,top,right and bottom and can contain negative edges. Suggested him recursive approach having exponential time complexity.
+
+
+coins are lined up (eg. 100 200 50 2) Two players playing this game can pick a coin from either of the left or right end. Player with maximum sum will win. Both players are optimally playing the game. You have to tell that whatturn(1 or 2) should be chosen in order to win. Like in above example if you play first then can select coin 2(you want to get that 200 coin to win). 
+
+
+code:
+Given n non-negative integers representing buildings where the width of each bar is 1, compute how much water it is able to trap after raining
+
+
+
+A tree is stored in an array such that value stored at index I is parent of node I. Firstly gave an nlog(n) approach as it came to mind first. He said to code it(coded it), then he insisted to optimize the solution with worst case time complexity O(n), then we discuss the DP solution he agreed on the logic and asked to code it (coded it).
+
 
