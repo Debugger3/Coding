@@ -1,0 +1,49 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+		//code
+				Scanner in=new Scanner(System.in);
+		int tc,i,j,k,n;
+		tc=in.nextInt();
+		while(tc-->0)
+		{
+		    n=in.nextInt();    
+		    int a[]=new int[n];
+		    int b[]=new int[n];
+		    for(i=0;i<n;i++)
+		        a[i]=in.nextInt();
+		    for(i=0;i<n;i++)
+		        b[i]=in.nextInt();      
+		    int countSum[]=new int[2*n+1];
+		    int preSum1=0,preSum2=0,currDiff,temp;
+		    Arrays.fill(countSum,-1);
+		    int maxLen=Integer.MIN_VALUE;
+		    for(i=0;i<n;i++)
+		    {
+		        preSum1+=a[i];
+		        preSum2+=b[i];
+		        currDiff=preSum1-preSum2;
+		        if(currDiff!=0)
+		        {
+    		        if(countSum[currDiff+n]==-1)
+    		            countSum[currDiff+n]=i;
+    		        else      
+    		        {
+    		        	//if(countSum[currDiff]==0)
+    		            temp=i-countSum[currDiff+n];
+    		            //System.out.println(" temp "+temp+"  i="+i);
+    		            if(maxLen<temp)
+    		                maxLen=temp;
+    		        }
+		        }
+		        else
+		            maxLen=i+1;
+		    }
+		    
+		    System.out.println(maxLen==Integer.MIN_VALUE?0:maxLen);
+		}
+	}
+}

@@ -1,0 +1,70 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+		//code
+		 Scanner in=new Scanner(System.in);
+		int tc,i,j,k,n,r;
+		tc=in.nextInt();
+		while(tc-->0)
+		{
+		    n=in.nextInt();    
+		    r=in.nextInt();
+		    k=r;
+		    long c[][]=new long[n+1][r+1];
+		    c[0][0]=1;
+		    c[1][0]=1;
+		    c[1][1]=1;
+		    for(i=1;i<=n;i++)
+		    {
+		        for(j=0;j<=k;j++)
+		        {
+		            if(j==0 || j == i)
+		                c[i][j]=1;
+		            else
+		                c[i][j]=(c[i-1][j]+c[i-1][j-1])%1000000007;
+		        }
+		    }
+		    System.out.println(c[n][k]);
+		}
+	}
+}
+
+
+
+/*
+
+Method 2 is tricky part
+*/
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args) {
+		//code
+		 Scanner in=new Scanner(System.in);
+		int tc,i,j,k,n,r;
+		tc=in.nextInt();
+		while(tc-->0)
+		{
+		    n=in.nextInt();    
+		    r=in.nextInt();
+		    k=r;
+		    long c[]=new long[r+1];
+		    c[0]=1;
+		    c[1]=1;
+		    for(i=2;i<=n;i++)
+		    {
+		        for(j=k;j>0;j--)
+		        {
+		                c[j]=(c[j]+c[j-1])%1000000007;
+		        }
+		    }
+		    System.out.println(c[k]);
+		}
+	}
+}
